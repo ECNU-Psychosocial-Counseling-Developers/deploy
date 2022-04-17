@@ -19,5 +19,5 @@ cd backend
 git pull
 mvn clean
 mvn install
-nohup java -jar target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar &
+nohup java -jar target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar 1>platform_run.out 2>platform_error.out &
 
