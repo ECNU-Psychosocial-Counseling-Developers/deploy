@@ -1,0 +1,591 @@
+Error: Unable to access jarfile target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+Error: Unable to access jarfile DeployService-0.0.1-SNAPSHOT.jar
+Error: Unable to access jarfile DeployService-0.0.1-SNAPSHOT.jar
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+2022-04-17 12:00:09.053  INFO 16428 --- [           main] c.e.e.s.d.DeployServiceApplication       : Starting DeployServiceApplication v0.0.1-SNAPSHOT using Java 11.0.14.1 on pankaimingdeMacBook-Pro.local with PID 16428 (/Users/pankaiming/IdeaProjects/DeployService/target/DeployService-0.0.1-SNAPSHOT.jar started by pankaiming in /Users/pankaiming/IdeaProjects/DeployService)
+2022-04-17 12:00:09.055  INFO 16428 --- [           main] c.e.e.s.d.DeployServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-04-17 12:00:09.526  INFO 16428 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-04-17 12:00:09.533  INFO 16428 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-17 12:00:09.533  INFO 16428 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-17 12:00:09.574  INFO 16428 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-17 12:00:09.574  INFO 16428 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 485 ms
+2022-04-17 12:00:09.750  INFO 16428 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-17 12:00:09.755  INFO 16428 --- [           main] c.e.e.s.d.DeployServiceApplication       : Started DeployServiceApplication in 0.941 seconds (JVM running for 1.191)
+2022-04-17 12:05:45.957  INFO 16428 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-17 12:05:45.958  INFO 16428 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-17 12:05:45.960  INFO 16428 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+process.waitFor(): 0
+Psychosocial-Counseling
+Previous Project Process ID: 15928
+---------------
+15928 Has Been Killed
+Redeploy...
+Already up to date.
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for cn.edu.ecnu:Psychosocial-Counseling:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'parent.relativePath' of POM cn.edu.ecnu:Psychosocial-Counseling:0.0.1-SNAPSHOT (/Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml) points at cn.edu.ecnu.stu:DeployService instead of com.alipay.sofa:sofaboot-dependencies, please verify your project structure @ line 5, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcn.edu.ecnu:Psychosocial-Counseling[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/pankaiming/IdeaProjects/DeployService/backend/target
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.235 s
+[[1;34mINFO[m] Finished at: 2022-04-17T12:05:52+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for cn.edu.ecnu:Psychosocial-Counseling:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'parent.relativePath' of POM cn.edu.ecnu:Psychosocial-Counseling:0.0.1-SNAPSHOT (/Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml) points at cn.edu.ecnu.stu:DeployService instead of com.alipay.sofa:sofaboot-dependencies, please verify your project structure @ line 5, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcn.edu.ecnu:Psychosocial-Counseling[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 139 source files to /Users/pankaiming/IdeaProjects/DeployService/backend/target/classes
+[[1;34mINFO[m] /Users/pankaiming/IdeaProjects/DeployService/backend/src/main/java/cn/edu/ecnu/backend/controller/ApplicationController.java: 某些输入文件使用了未经检查或不安全的操作。
+[[1;34mINFO[m] /Users/pankaiming/IdeaProjects/DeployService/backend/src/main/java/cn/edu/ecnu/backend/controller/ApplicationController.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/pankaiming/IdeaProjects/DeployService/backend/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /Users/pankaiming/IdeaProjects/DeployService/backend/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.repository.[1mConsultTest[m
+12:05:54.662 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.665 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:05:54.669 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:05:54.677 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [cn.edu.ecnu.backend.repository.ConsultTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:05:54.683 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.repository.ConsultTest], using SpringBootContextLoader
+12:05:54.685 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [cn.edu.ecnu.backend.repository.ConsultTest]: class path resource [cn/edu/ecnu/backend/repository/ConsultTest-context.xml] does not exist
+12:05:54.685 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [cn.edu.ecnu.backend.repository.ConsultTest]: class path resource [cn/edu/ecnu/backend/repository/ConsultTestContext.groovy] does not exist
+12:05:54.685 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.edu.ecnu.backend.repository.ConsultTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:05:54.686 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.edu.ecnu.backend.repository.ConsultTest]: ConsultTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:05:54.710 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.750 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/pankaiming/IdeaProjects/DeployService/backend/target/classes/cn/edu/ecnu/backend/BackendApplication.class]
+12:05:54.751 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.repository.ConsultTest
+12:05:54.801 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [cn.edu.ecnu.backend.repository.ConsultTest]: using defaults.
+12:05:54.801 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+12:05:54.809 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@63fbfaeb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@602e0143, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c07545f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e57b96d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32c726ee, org.springframework.test.context.transaction.TransactionalTestExecutionListener@22f31dec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@34c01041, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@76f4b65, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@c94fd30, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@36328d33, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c4d1ac, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f0d96f2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@545b995e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@76a2ddf3]
+12:05:54.810 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.810 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.811 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.812 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6b88ca8c testClass = ConsultTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@336f1079 testClass = ConsultTest, locations = '{}', classes = '{class cn.edu.ecnu.backend.BackendApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@378542de, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@11bd0f3b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6631f5ca, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@212b5695], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+12:05:54.812 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.812 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:05:54.824 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+ ,---.    ,-----.  ,------.   ,---.     ,-----.                     ,--.
+'   .-'  '  .-.  ' |  .---'  /  O  \    |  |) /_   ,---.   ,---.  ,-'  '-.
+`.  `-.  |  | |  | |  `--,  |  .-.  |   |  .-.  \ | .-. | | .-. | '-.  .-'
+.-'    | '  '-'  ' |  |`    |  | |  |   |  '--' / ' '-' ' ' '-' '   |  |
+`-----'   `-----'  `--'     `--' `--'   `------'   `---'   `---'    `--'
+
+
+Spring Boot Version: 2.1.13.RELEASE (v2.1.13.RELEASE)
+SOFABoot Version: 3.3.1 (v3.3.1)
+Powered By Ant Financial Services Group
+
+2022-04-17 12:05:55.149  INFO 16556 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : Starting ConsultTest on pankaimingdeMacBook-Pro.local with PID 16556 (started by pankaiming in /Users/pankaiming/IdeaProjects/DeployService/backend)
+2022-04-17 12:05:55.149  INFO 16556 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : No active profile set, falling back to default profiles: default
+2022-04-17 12:05:55.850  INFO 16556 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-17 12:05:55.850  INFO 16556 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-17 12:05:55.866  INFO 16556 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 MongoDB repository interfaces.
+2022-04-17 12:05:55.874  INFO 16556 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-17 12:05:55.875  INFO 16556 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-17 12:05:55.884  INFO 16556 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2022-04-17 12:05:56.270  INFO 16556 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$50fa0910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:05:56.289  INFO 16556 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:05:56.290  INFO 16556 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1b8fa2fa' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:05:56.294  INFO 16556 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$75ceabc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:05:56.298  INFO 16556 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:05:56.766  INFO 16556 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[101.43.247.72:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-04-17 12:05:56.767  INFO 16556 --- [           main] org.mongodb.driver.cluster               : Adding discovered server 101.43.247.72:27017 to client view of cluster
+2022-04-17 12:05:56.837  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.839  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.839  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.839  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.894  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.894  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.894  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.894  WARN 16556 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:05:56.930  INFO 16556 --- [43.247.72:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1343}] to 101.43.247.72:27017
+2022-04-17 12:05:56.963  INFO 16556 --- [43.247.72:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=101.43.247.72:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 2]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32017792}
+2022-04-17 12:05:56.964  INFO 16556 --- [43.247.72:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2022-04-17 12:05:57.682  INFO 16556 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-04-17 12:05:57.780  INFO 16556 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-04-17 12:05:57.957  INFO 16556 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e2bc241, org.springframework.security.web.context.SecurityContextPersistenceFilter@60256d1b, org.springframework.security.web.header.HeaderWriterFilter@43aa767, org.springframework.web.filter.CorsFilter@543196f9, org.springframework.security.web.authentication.logout.LogoutFilter@35e7fcf2, cn.edu.ecnu.backend.filter.JWTAuthorizationFilter@4d7fba20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@351fadfa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a6e0f3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@112b3298, org.springframework.security.web.session.SessionManagementFilter@1390a415, org.springframework.security.web.access.ExceptionTranslationFilter@16e5c19f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6eb332d1]
+2022-04-17 12:05:58.273  INFO 16556 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-17 12:05:58.634  INFO 16556 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-17 12:05:58.653  INFO 16556 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-17 12:05:58.681  INFO 16556 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-17 12:05:58.885  INFO 16556 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryConsultStatTodayUsingGET_1
+2022-04-17 12:05:59.363  INFO 16556 --- [           main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1344}] to 101.43.247.72:27017
+2022-04-17 12:05:59.408  INFO 16556 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-17 12:05:59.963  INFO 16556 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-17 12:06:00.113  INFO 16556 --- [     parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2022-04-17 12:06:00.113  INFO 16556 --- [     parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2022-04-17 12:06:00.278  INFO 16556 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : Started ConsultTest in 5.45 seconds (JVM running for 5.837)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.922 s - in cn.edu.ecnu.backend.repository.[1mConsultTest[m
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.util.[1mUtilTest[m
+2022-04-17 12:06:00.515  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.util.UtilTest], using SpringBootContextLoader
+2022-04-17 12:06:00.515  INFO 16556 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cn.edu.ecnu.backend.util.UtilTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-17 12:06:00.516  INFO 16556 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cn.edu.ecnu.backend.util.UtilTest]: UtilTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-17 12:06:00.522  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.util.UtilTest
+2022-04-17 12:06:00.523  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-04-17 12:06:00.523  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d248692, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55aabc72, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57f076bd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@44986fae, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d6161b9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2d28114b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@79b9dfcd, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7edb2a4b, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@5811f080, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@355e1080, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2aef651, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@25000d3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72426ced, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37ddb835]
+$2a$10$V8qai0b2HciL4AEUmUtV8.8kWlbMD2Cd/875mQm4Zt6Z3CvyaAxKK
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.185 s - in cn.edu.ecnu.backend.util.[1mUtilTest[m
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.service.[1mApplicationServiceTest[m
+2022-04-17 12:06:00.718  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest], using SpringBootContextLoader
+2022-04-17 12:06:00.720  INFO 16556 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-17 12:06:00.720  INFO 16556 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest]: ApplicationServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-17 12:06:00.732  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.service.ApplicationServiceTest
+2022-04-17 12:06:00.737  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-04-17 12:06:00.739  INFO 16556 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71b01319, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@16fa28eb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@28fdce67, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@24c9a52a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55105271, org.springframework.test.context.transaction.TransactionalTestExecutionListener@126a8548, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@54a2ff94, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3d2be0df, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6affbed1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2cf93603, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6fe43257, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@dab0a6c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1a35343e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7f994055]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in cn.edu.ecnu.backend.service.[1mApplicationServiceTest[m
+2022-04-17 12:06:00.877  INFO 16556 --- [       Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-17 12:06:00.999  INFO 16556 --- [       Thread-5] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:1344}] to 101.43.247.72:27017 because the pool has been closed.
+2022-04-17 12:06:01.001  INFO 16556 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-17 12:06:01.124  INFO 16556 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.2:jar[m [1m(default-jar)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/pankaiming/IdeaProjects/DeployService/backend/target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.1.13.RELEASE:repackage[m [1m(repackage)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/pankaiming/IdeaProjects/DeployService/backend/target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar to /Users/pankaiming/.m2/repository/cn/edu/ecnu/Psychosocial-Counseling/0.0.1-SNAPSHOT/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml to /Users/pankaiming/.m2/repository/cn/edu/ecnu/Psychosocial-Counseling/0.0.1-SNAPSHOT/Psychosocial-Counseling-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.681 s
+[[1;34mINFO[m] Finished at: 2022-04-17T12:06:02+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+process.waitFor(): 0
+Psychosocial-Counseling
+Previous Project Process ID: 16575
+---------------
+16575 Has Been Killed
+Redeploy...
+Already up to date.
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for cn.edu.ecnu:Psychosocial-Counseling:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'parent.relativePath' of POM cn.edu.ecnu:Psychosocial-Counseling:0.0.1-SNAPSHOT (/Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml) points at cn.edu.ecnu.stu:DeployService instead of com.alipay.sofa:sofaboot-dependencies, please verify your project structure @ line 5, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcn.edu.ecnu:Psychosocial-Counseling[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/pankaiming/IdeaProjects/DeployService/backend/target
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.336 s
+[[1;34mINFO[m] Finished at: 2022-04-17T12:06:58+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for cn.edu.ecnu:Psychosocial-Counseling:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'parent.relativePath' of POM cn.edu.ecnu:Psychosocial-Counseling:0.0.1-SNAPSHOT (/Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml) points at cn.edu.ecnu.stu:DeployService instead of com.alipay.sofa:sofaboot-dependencies, please verify your project structure @ line 5, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcn.edu.ecnu:Psychosocial-Counseling[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 139 source files to /Users/pankaiming/IdeaProjects/DeployService/backend/target/classes
+[[1;34mINFO[m] /Users/pankaiming/IdeaProjects/DeployService/backend/src/main/java/cn/edu/ecnu/backend/controller/ApplicationController.java: 某些输入文件使用了未经检查或不安全的操作。
+[[1;34mINFO[m] /Users/pankaiming/IdeaProjects/DeployService/backend/src/main/java/cn/edu/ecnu/backend/controller/ApplicationController.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/pankaiming/IdeaProjects/DeployService/backend/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /Users/pankaiming/IdeaProjects/DeployService/backend/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.repository.[1mConsultTest[m
+12:07:02.376 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.380 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:07:02.384 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:07:02.393 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [cn.edu.ecnu.backend.repository.ConsultTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:07:02.399 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.repository.ConsultTest], using SpringBootContextLoader
+12:07:02.401 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [cn.edu.ecnu.backend.repository.ConsultTest]: class path resource [cn/edu/ecnu/backend/repository/ConsultTest-context.xml] does not exist
+12:07:02.401 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [cn.edu.ecnu.backend.repository.ConsultTest]: class path resource [cn/edu/ecnu/backend/repository/ConsultTestContext.groovy] does not exist
+12:07:02.401 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.edu.ecnu.backend.repository.ConsultTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:07:02.401 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.edu.ecnu.backend.repository.ConsultTest]: ConsultTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:07:02.435 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.476 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/pankaiming/IdeaProjects/DeployService/backend/target/classes/cn/edu/ecnu/backend/BackendApplication.class]
+12:07:02.477 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.repository.ConsultTest
+12:07:02.531 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [cn.edu.ecnu.backend.repository.ConsultTest]: using defaults.
+12:07:02.532 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+12:07:02.540 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e57b96d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32c726ee, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@22f31dec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@34c01041, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76f4b65, org.springframework.test.context.transaction.TransactionalTestExecutionListener@c94fd30, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@36328d33, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2c4d1ac, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7f0d96f2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@545b995e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76a2ddf3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@524f3b3a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@41e68d87, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@49ff7d8c]
+12:07:02.541 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.541 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.542 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.542 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.542 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.542 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.543 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@34158c08 testClass = ConsultTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@19e4fcac testClass = ConsultTest, locations = '{}', classes = '{class cn.edu.ecnu.backend.BackendApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@11bd0f3b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1eb5174b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@27ff5d15, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@793be5ca], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+12:07:02.544 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.544 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:07:02.555 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+ ,---.    ,-----.  ,------.   ,---.     ,-----.                     ,--.
+'   .-'  '  .-.  ' |  .---'  /  O  \    |  |) /_   ,---.   ,---.  ,-'  '-.
+`.  `-.  |  | |  | |  `--,  |  .-.  |   |  .-.  \ | .-. | | .-. | '-.  .-'
+.-'    | '  '-'  ' |  |`    |  | |  |   |  '--' / ' '-' ' ' '-' '   |  |
+`-----'   `-----'  `--'     `--' `--'   `------'   `---'   `---'    `--'
+
+
+Spring Boot Version: 2.1.13.RELEASE (v2.1.13.RELEASE)
+SOFABoot Version: 3.3.1 (v3.3.1)
+Powered By Ant Financial Services Group
+
+2022-04-17 12:07:02.775  INFO 16649 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : Starting ConsultTest on pankaimingdeMacBook-Pro.local with PID 16649 (started by pankaiming in /Users/pankaiming/IdeaProjects/DeployService/backend)
+2022-04-17 12:07:02.775  INFO 16649 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : No active profile set, falling back to default profiles: default
+2022-04-17 12:07:03.434  INFO 16649 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-17 12:07:03.435  INFO 16649 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-17 12:07:03.451  INFO 16649 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 MongoDB repository interfaces.
+2022-04-17 12:07:03.458  INFO 16649 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-17 12:07:03.459  INFO 16649 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-17 12:07:03.469  INFO 16649 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2022-04-17 12:07:03.801  INFO 16649 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a3057992] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:07:03.817  INFO 16649 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:07:03.818  INFO 16649 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@37c2f0b4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:07:03.820  INFO 16649 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c7da1c44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:07:03.823  INFO 16649 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:07:04.225  INFO 16649 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[101.43.247.72:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-04-17 12:07:04.226  INFO 16649 --- [           main] org.mongodb.driver.cluster               : Adding discovered server 101.43.247.72:27017 to client view of cluster
+2022-04-17 12:07:04.293  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.295  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.295  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.296  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.349  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.349  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.349  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.349  WARN 16649 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:07:04.421  INFO 16649 --- [43.247.72:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1347}] to 101.43.247.72:27017
+2022-04-17 12:07:04.462  INFO 16649 --- [43.247.72:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=101.43.247.72:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 2]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=40121542}
+2022-04-17 12:07:04.463  INFO 16649 --- [43.247.72:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2022-04-17 12:07:05.033  INFO 16649 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-04-17 12:07:05.106  INFO 16649 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-04-17 12:07:05.256  INFO 16649 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47d7e4b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d24ab25, org.springframework.security.web.header.HeaderWriterFilter@10660795, org.springframework.web.filter.CorsFilter@623ed5ed, org.springframework.security.web.authentication.logout.LogoutFilter@40696fc6, cn.edu.ecnu.backend.filter.JWTAuthorizationFilter@49e92724, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1952ad9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65fa56f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ba4b32b, org.springframework.security.web.session.SessionManagementFilter@779136bf, org.springframework.security.web.access.ExceptionTranslationFilter@1715193f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@252d2ac0]
+2022-04-17 12:07:05.504  INFO 16649 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-17 12:07:05.782  INFO 16649 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-17 12:07:05.793  INFO 16649 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-17 12:07:05.810  INFO 16649 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-17 12:07:05.926  INFO 16649 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryConsultStatTodayUsingGET_1
+2022-04-17 12:07:06.252  INFO 16649 --- [           main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1348}] to 101.43.247.72:27017
+2022-04-17 12:07:06.288  INFO 16649 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-17 12:07:06.818  INFO 16649 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-17 12:07:06.944  INFO 16649 --- [     parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2022-04-17 12:07:06.945  INFO 16649 --- [     parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2022-04-17 12:07:07.112  INFO 16649 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : Started ConsultTest in 4.553 seconds (JVM running for 5.04)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.028 s - in cn.edu.ecnu.backend.repository.[1mConsultTest[m
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.util.[1mUtilTest[m
+2022-04-17 12:07:07.328  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.util.UtilTest], using SpringBootContextLoader
+2022-04-17 12:07:07.328  INFO 16649 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cn.edu.ecnu.backend.util.UtilTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-17 12:07:07.328  INFO 16649 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cn.edu.ecnu.backend.util.UtilTest]: UtilTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-17 12:07:07.331  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.util.UtilTest
+2022-04-17 12:07:07.331  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-04-17 12:07:07.332  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68fd0fba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f9e38d4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7310bc90, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18a421ea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18247d9b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5632bed3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@20307cb9, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@19a2b224, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2251cc2e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61563a91, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@42a057b6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e1ffe54, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@62036b05, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@32514766]
+$2a$10$nXofUJHOCN1LkVpDtVnDfeMSMh2oZVwLIzmrAiUz.fKI2RHzkC7T6
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 s - in cn.edu.ecnu.backend.util.[1mUtilTest[m
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.service.[1mApplicationServiceTest[m
+2022-04-17 12:07:07.499  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest], using SpringBootContextLoader
+2022-04-17 12:07:07.500  INFO 16649 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-17 12:07:07.500  INFO 16649 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest]: ApplicationServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-17 12:07:07.503  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.service.ApplicationServiceTest
+2022-04-17 12:07:07.504  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-04-17 12:07:07.504  INFO 16649 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@79dd79eb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@368617cd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ae88df1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@502a9b30, org.springframework.test.context.support.DirtiesContextTestExecutionListener@422ab2ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4494ed08, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a2d676e, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7e5a8000, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@6970687e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a6f34f5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1b6824c1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3118ed2c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5bc150e9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@28fa0ff8]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in cn.edu.ecnu.backend.service.[1mApplicationServiceTest[m
+2022-04-17 12:07:07.579  INFO 16649 --- [       Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-17 12:07:07.695  INFO 16649 --- [       Thread-5] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:1348}] to 101.43.247.72:27017 because the pool has been closed.
+2022-04-17 12:07:07.699  INFO 16649 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-17 12:07:08.034  INFO 16649 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.2:jar[m [1m(default-jar)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/pankaiming/IdeaProjects/DeployService/backend/target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.1.13.RELEASE:repackage[m [1m(repackage)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/pankaiming/IdeaProjects/DeployService/backend/target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar to /Users/pankaiming/.m2/repository/cn/edu/ecnu/Psychosocial-Counseling/0.0.1-SNAPSHOT/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml to /Users/pankaiming/.m2/repository/cn/edu/ecnu/Psychosocial-Counseling/0.0.1-SNAPSHOT/Psychosocial-Counseling-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.578 s
+[[1;34mINFO[m] Finished at: 2022-04-17T12:07:08+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+process.waitFor(): 0
+Psychosocial-Counseling
+Previous Project Process ID: 16664
+---------------
+16664 Has Been Killed
+Redeploy...
+Updating 10abbc3..5b3f9fb
+Fast-forward
+ deploy.sh | 24 ++++++++++++++++++++++--
+ 1 file changed, 22 insertions(+), 2 deletions(-)
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for cn.edu.ecnu:Psychosocial-Counseling:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'parent.relativePath' of POM cn.edu.ecnu:Psychosocial-Counseling:0.0.1-SNAPSHOT (/Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml) points at cn.edu.ecnu.stu:DeployService instead of com.alipay.sofa:sofaboot-dependencies, please verify your project structure @ line 5, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcn.edu.ecnu:Psychosocial-Counseling[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/pankaiming/IdeaProjects/DeployService/backend/target
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.280 s
+[[1;34mINFO[m] Finished at: 2022-04-17T12:20:16+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for cn.edu.ecnu:Psychosocial-Counseling:jar:0.0.1-SNAPSHOT
+[[1;33mWARNING[m] 'parent.relativePath' of POM cn.edu.ecnu:Psychosocial-Counseling:0.0.1-SNAPSHOT (/Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml) points at cn.edu.ecnu.stu:DeployService instead of com.alipay.sofa:sofaboot-dependencies, please verify your project structure @ line 5, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcn.edu.ecnu:Psychosocial-Counseling[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 139 source files to /Users/pankaiming/IdeaProjects/DeployService/backend/target/classes
+[[1;34mINFO[m] /Users/pankaiming/IdeaProjects/DeployService/backend/src/main/java/cn/edu/ecnu/backend/controller/ApplicationController.java: 某些输入文件使用了未经检查或不安全的操作。
+[[1;34mINFO[m] /Users/pankaiming/IdeaProjects/DeployService/backend/src/main/java/cn/edu/ecnu/backend/controller/ApplicationController.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/pankaiming/IdeaProjects/DeployService/backend/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /Users/pankaiming/IdeaProjects/DeployService/backend/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.repository.[1mConsultTest[m
+12:20:19.333 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.336 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:20:19.340 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:20:19.349 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [cn.edu.ecnu.backend.repository.ConsultTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:20:19.355 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.repository.ConsultTest], using SpringBootContextLoader
+12:20:19.357 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [cn.edu.ecnu.backend.repository.ConsultTest]: class path resource [cn/edu/ecnu/backend/repository/ConsultTest-context.xml] does not exist
+12:20:19.357 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [cn.edu.ecnu.backend.repository.ConsultTest]: class path resource [cn/edu/ecnu/backend/repository/ConsultTestContext.groovy] does not exist
+12:20:19.357 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [cn.edu.ecnu.backend.repository.ConsultTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:20:19.358 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [cn.edu.ecnu.backend.repository.ConsultTest]: ConsultTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:20:19.386 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.430 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/pankaiming/IdeaProjects/DeployService/backend/target/classes/cn/edu/ecnu/backend/BackendApplication.class]
+12:20:19.431 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.repository.ConsultTest
+12:20:19.484 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [cn.edu.ecnu.backend.repository.ConsultTest]: using defaults.
+12:20:19.484 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+12:20:19.493 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@63fbfaeb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@602e0143, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c07545f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@e57b96d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32c726ee, org.springframework.test.context.transaction.TransactionalTestExecutionListener@22f31dec, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@34c01041, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@76f4b65, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@c94fd30, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@36328d33, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c4d1ac, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f0d96f2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@545b995e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@76a2ddf3]
+12:20:19.494 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.494 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.494 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.494 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.495 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.495 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.496 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6b88ca8c testClass = ConsultTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@336f1079 testClass = ConsultTest, locations = '{}', classes = '{class cn.edu.ecnu.backend.BackendApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@378542de, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@11bd0f3b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6631f5ca, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@212b5695], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+12:20:19.497 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.497 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.edu.ecnu.backend.repository.ConsultTest]
+12:20:19.513 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+ ,---.    ,-----.  ,------.   ,---.     ,-----.                     ,--.
+'   .-'  '  .-.  ' |  .---'  /  O  \    |  |) /_   ,---.   ,---.  ,-'  '-.
+`.  `-.  |  | |  | |  `--,  |  .-.  |   |  .-.  \ | .-. | | .-. | '-.  .-'
+.-'    | '  '-'  ' |  |`    |  | |  |   |  '--' / ' '-' ' ' '-' '   |  |
+`-----'   `-----'  `--'     `--' `--'   `------'   `---'   `---'    `--'
+
+
+Spring Boot Version: 2.1.13.RELEASE (v2.1.13.RELEASE)
+SOFABoot Version: 3.3.1 (v3.3.1)
+Powered By Ant Financial Services Group
+
+2022-04-17 12:20:19.837  INFO 16909 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : Starting ConsultTest on pankaimingdeMacBook-Pro.local with PID 16909 (started by pankaiming in /Users/pankaiming/IdeaProjects/DeployService/backend)
+2022-04-17 12:20:19.838  INFO 16909 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : No active profile set, falling back to default profiles: default
+2022-04-17 12:20:20.473  INFO 16909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-17 12:20:20.474  INFO 16909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-04-17 12:20:20.488  INFO 16909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 MongoDB repository interfaces.
+2022-04-17 12:20:20.494  INFO 16909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-17 12:20:20.495  INFO 16909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-17 12:20:20.504  INFO 16909 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2022-04-17 12:20:20.850  INFO 16909 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$50fa0910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:20:20.866  INFO 16909 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:20:20.867  INFO 16909 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7b7068d8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:20:20.870  INFO 16909 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$75ceabc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:20:20.873  INFO 16909 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-17 12:20:21.329  INFO 16909 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[101.43.247.72:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-04-17 12:20:21.329  INFO 16909 --- [           main] org.mongodb.driver.cluster               : Adding discovered server 101.43.247.72:27017 to client view of cluster
+2022-04-17 12:20:21.396  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.397  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.397  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.398  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.448  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.448  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.448  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.448  WARN 16909 --- [           main] o.s.data.convert.CustomConversions       : Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-04-17 12:20:21.491  INFO 16909 --- [43.247.72:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1351}] to 101.43.247.72:27017
+2022-04-17 12:20:21.526  INFO 16909 --- [43.247.72:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=101.43.247.72:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 2]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34042958}
+2022-04-17 12:20:21.527  INFO 16909 --- [43.247.72:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2022-04-17 12:20:22.187  INFO 16909 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2022-04-17 12:20:22.260  INFO 16909 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-04-17 12:20:22.430  INFO 16909 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@170f0fd6, org.springframework.security.web.context.SecurityContextPersistenceFilter@16e5c19f, org.springframework.security.web.header.HeaderWriterFilter@5b4b6f3b, org.springframework.web.filter.CorsFilter@48d24d63, org.springframework.security.web.authentication.logout.LogoutFilter@5d8a1456, cn.edu.ecnu.backend.filter.JWTAuthorizationFilter@695c8b32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@447a557b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@629fe84, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1adec8d, org.springframework.security.web.session.SessionManagementFilter@4e111e08, org.springframework.security.web.access.ExceptionTranslationFilter@4518497e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c717ef2]
+2022-04-17 12:20:22.674  INFO 16909 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-17 12:20:22.993  INFO 16909 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-04-17 12:20:23.007  INFO 16909 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-04-17 12:20:23.028  INFO 16909 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-04-17 12:20:23.168  INFO 16909 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryConsultStatTodayUsingGET_1
+2022-04-17 12:20:23.522  INFO 16909 --- [           main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:1352}] to 101.43.247.72:27017
+2022-04-17 12:20:23.560  INFO 16909 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-17 12:20:24.086  INFO 16909 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-17 12:20:24.228  INFO 16909 --- [     parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2022-04-17 12:20:24.228  INFO 16909 --- [     parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2022-04-17 12:20:24.390  INFO 16909 --- [           main] c.e.ecnu.backend.repository.ConsultTest  : Started ConsultTest in 4.872 seconds (JVM running for 5.293)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.307 s - in cn.edu.ecnu.backend.repository.[1mConsultTest[m
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.util.[1mUtilTest[m
+2022-04-17 12:20:24.577  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.util.UtilTest], using SpringBootContextLoader
+2022-04-17 12:20:24.577  INFO 16909 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cn.edu.ecnu.backend.util.UtilTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-17 12:20:24.577  INFO 16909 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cn.edu.ecnu.backend.util.UtilTest]: UtilTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-17 12:20:24.580  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.util.UtilTest
+2022-04-17 12:20:24.581  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-04-17 12:20:24.581  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@363bf9d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@184218af, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e7423bb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@270663e2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3987bfc8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@31084f37, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ececb56, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@a43a21e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@ebe3561, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d3cb276, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15c042fc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2045108, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7dee7914, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6559cbdd]
+$2a$10$QM/kpIsK1lIIOULlp4hHm.8SPmepPDboqRMj0mT8ON03EeZwXPrjW
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s - in cn.edu.ecnu.backend.util.[1mUtilTest[m
+[[1;34mINFO[m] Running cn.edu.ecnu.backend.service.[1mApplicationServiceTest[m
+2022-04-17 12:20:24.754  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest], using SpringBootContextLoader
+2022-04-17 12:20:24.754  INFO 16909 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-17 12:20:24.754  INFO 16909 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cn.edu.ecnu.backend.service.ApplicationServiceTest]: ApplicationServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-04-17 12:20:24.757  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cn.edu.ecnu.backend.BackendApplication for test class cn.edu.ecnu.backend.service.ApplicationServiceTest
+2022-04-17 12:20:24.758  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-04-17 12:20:24.758  INFO 16909 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18247d9b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5632bed3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@20307cb9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19a2b224, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2251cc2e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@61563a91, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@42a057b6, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4e1ffe54, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@62036b05, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32514766, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@720cbb7d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@43d00636, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3a72160a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a01c55]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in cn.edu.ecnu.backend.service.[1mApplicationServiceTest[m
+2022-04-17 12:20:24.841  INFO 16909 --- [       Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-17 12:20:24.961  INFO 16909 --- [       Thread-5] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:1352}] to 101.43.247.72:27017 because the pool has been closed.
+2022-04-17 12:20:24.963  INFO 16909 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-17 12:20:25.209  INFO 16909 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.2:jar[m [1m(default-jar)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/pankaiming/IdeaProjects/DeployService/backend/target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.1.13.RELEASE:repackage[m [1m(repackage)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mPsychosocial-Counseling[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/pankaiming/IdeaProjects/DeployService/backend/target/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar to /Users/pankaiming/.m2/repository/cn/edu/ecnu/Psychosocial-Counseling/0.0.1-SNAPSHOT/Psychosocial-Counseling-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/pankaiming/IdeaProjects/DeployService/backend/pom.xml to /Users/pankaiming/.m2/repository/cn/edu/ecnu/Psychosocial-Counseling/0.0.1-SNAPSHOT/Psychosocial-Counseling-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.050 s
+[[1;34mINFO[m] Finished at: 2022-04-17T12:20:26+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
